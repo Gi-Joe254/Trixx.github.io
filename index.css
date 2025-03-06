@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+.navbar{
+    position: relative;
+    background: #E0E0E0   ;
+    height: 60px;
+    width: 100%;
+    color: #FFD700;
+    display: flex;
+    
+} 
+.nav{
+    display:none;
+    background: rgba(18, 117, 5, 0.8);
+    width: 90vh;
+    color: #faf5f5;
+    padding: 10px;
+    height: 230px;
+    position: absolute;
+    top: 100%;
+}
+.nav li{
+    list-style: none;
+    font: italic 1em sans-serif;
+    line-height: 3em;
+    
+}
+
+.logo img{
+    height: 150px;
+    position: absolute;
+    top: -80%;
+    margin: 0 50px;
+    
+    animation: animatelogo 2s;
+}
+@keyframes animatelogo {
+    from{
+        top: -100px;
+        opacity: 0;
+    }
+}
+
+.icons img{
+    height: 20px;
+    margin:20px 20px;
+}
+.contactBtn{
+    position: relative;
+    left:60%;
+    top:20%;
+    height: 30px;
+    width: 90px;
+    background-color:#007BFF;
+    color: #E0E0E0;
+    border-radius: 5px;
+    border: none;
+}
+.intro{
+    height: 60vh;
+    background: url("https://mediaassets.cbre.com/-/media/project/cbre/dotcom/americas/canada-emerald/about-us/newsroom/circuit-board-2736x1824.jpg")center center / cover no-repeat;
+    color:#e0d0d0;
+    margin-top:-10%;
+    
+}
+.intro h2{    
+    position: relative; 
+    top: 50%;  
+    margin: 10%;
+    padding: 10px;
+    font: bold 1.5em sans-serif;
+    text-align: center;
+    background: rgba(16, 87, 87, 0.2);
+    
+}
+.intro .yellowText{
+    font:bold 1.4em sans-serif;
+    color: #007BFF;
+}
+.services{
+    
+    text-align: center;
+}
+.services h2{
+    margin: 100px;
+    font:bold 1.6em sans-serif;
+    color: #007BFF;
+}
+.serviceList{
+    
+}
+.serviceList li{
+    list-style: none;
+    border: none;
+    border-radius: 5px;
+    width: 350px;
+    margin: 20px auto;
+    background: rgb(219, 215, 215);
+    
+}
+.serviceList h3{
+    font:bold 1em sans-serif;
+    padding: 20px;
+    color: rgb(20, 160, 196);
+}
+.serviceList img{
+    height:auto;
+    width:100px;
+}
